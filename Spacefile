@@ -1,0 +1,8 @@
+v: 0
+app_name: "FAPI SAMPLE"
+micros:
+  - name: fastapi-sample
+    src: ./
+    engine: python3.9
+    public: true
+    dev: uvicorn main:app --reload
